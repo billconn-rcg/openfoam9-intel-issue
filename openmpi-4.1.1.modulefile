@@ -1,0 +1,6 @@
+#%Module 1.0
+module load icc/2021.4.0
+prereq icc/2021.4.0
+prepend-path PATH /opt/openmpi-4.1.2/icc/2021.4.0/bin
+prepend-path MANPATH /opt/openmpi-4.1.2/icc/2021.4.0/share/man
+prepend-path LD_LIBRARY_PATH /opt/openmpi-4.1.2/icc/2021.4.0/lib
