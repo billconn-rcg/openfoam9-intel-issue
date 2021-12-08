@@ -8,8 +8,8 @@ module purge
 module load icc/2021.4.0
 module load openmpi/4.1.2/icc-2021.4.0
 
-git clone https://github.com/OpenFOAM/OpenFOAM-9.git
-git clone https://github.com/OpenFOAM/ThirdParty-9.git
+git clone https://github.com/OpenFOAM/OpenFOAM-${VERS}.git
+git clone https://github.com/OpenFOAM/ThirdParty-${VERS}.git
 
 # Set prefs/paths for openmpi for OpenFOAM
 cp prefs.${VERS}.sh OpenFOAM-${VERS}/etc/prefs.sh
